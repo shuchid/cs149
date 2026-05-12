@@ -1,0 +1,16 @@
+  504  cat worksheetA.log
+  505  nano worksheetA.log
+  506  cat worksheetA.log
+  507  cd ~
+  508  cd Desktop
+  509  mkdir cs149
+  510  cd cs149
+  511  git init
+  512  git remote add origin https://github.com/shuchid/cs149.git
+  513  git config --global user.emal "shuchid06@gmail.com"
+  514  git config --global user.name "Shuchi Dixit"
+  515  mkdir WS_bonus
+  516  cd WS_bonus
+  517  curl -L -o out.pdf https://tinyurl.com/yy94jltt
+  518  ls -latr
+  519  open out.pdf
