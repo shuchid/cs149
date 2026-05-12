@@ -1,0 +1,16 @@
+  541  make TOOLPREFIX=riscv64-elf- qemu
+  542  nano Makefile
+  543  make clean
+  544  make TOOLPREFIX=riscv64-elf- qemu
+  545  nano user/usertests.c
+  546  nano user/usertests.c
+  547  make clean
+  548  make TOOLPREFIX=riscv64-elf- qemu
+  549  nano user/sleep.c
+  550  nano Makefile
+  551  make clean
+  552  make TOOLPREFIX=riscv64-elf- qemu
+  553  nano user/sleep.c
+  554  make clean
+  555  make TOOLPREFIX=riscv64-elf- qemu
+  556  ./grade-lab-util sleep
